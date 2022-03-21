@@ -1,0 +1,420 @@
+.headercontent{
+    background-image: url('img/heroimg.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+}
+.navigationbar{
+    width: 90%;
+margin: 0px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+.logo a{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 39px;
+    color: white;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 0px 15px;
+    color: white;
+}
+.myclass1{
+    padding-top: 70px;
+    color: white;
+}
+.h1hed{
+    padding-top: 20px;
+    width: 40%;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.hpra{
+    font-size: 17px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+.ordernow{
+    border: none;
+    background-color: rgb(255, 47, 47);
+    color: white;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+}
+.ordernow:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+.section-one{
+   background-image: url('img/1.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.heading{
+    padding-top: 40px;
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+.heading h1{
+  text-transform: capitalize;
+  color: rgb(255, 47, 47);
+  font-weight: 900;
+}
+
+
+.section1content{
+    padding-top: 55px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.s1contentbox{
+    width: 30%;
+    padding-top: 16px;
+    text-align: center;
+}
+.s1contentbox h2{
+    padding-top: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.s1contentbox p{
+    padding-top: 16px;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: gray;
+}
+
+.section-two{
+    background-color: rgb(255, 66, 66);
+    height: 600px;
+}
+.section2content{
+    margin: 0px auto;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* .s2right{
+    margin-left: 30px;
+} */
+.s2right h1{
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.s2right p{
+    padding-top: 20px;
+    color: aliceblue;
+    font-style: italic;
+}
+.s2right .ordernow{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    padding: 14px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+}
+.s2right .ordernow:hover{
+    background-color: rgb(255, 32, 32);
+    color: rgb(255, 255, 255);
+}
+/* .s2left{
+    margin-left: 150px;
+} */
+
+
+
+.section-three{
+    background-image: url('img/1.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.section3content{
+    margin: 0px auto;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* .s3right{
+    margin-left: 30px;
+} */
+.s3right h1{
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: rgb(27, 32, 37);
+}
+.s3right p{
+    margin-top: 20px;
+    color: rgb(25, 28, 31);
+    font-style: italic;
+    /* padding-bottom: 69px; */
+}
+
+
+
+
+.section-four
+{
+    background-color: rgb(255, 66, 66);
+    height: 550px;
+}
+.s4heading{
+    text-align: center;
+    padding-top: 40px;
+    width: 40%;
+margin: 0px auto;
+}
+.s4heading h1{
+    color: white;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.s4heading p{
+    padding-top: 10px;
+    color: white;
+    font-style: italic;
+}
+
+.section4content{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    height: 350px;
+}
+.s4cbox{
+width: 25%;
+border: 2px solid white;
+border-radius: 37px;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.s4cbox h1{
+color: whitesmoke;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s4cbox p{
+color: whitesmoke;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+
+.section-five{
+    background-image: url('img/1.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.s5heading{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+    color: rgb(255, 74, 74);
+}
+.section5content{
+    margin: 0px auto;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.s5cbox{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+.s5cbox h3{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(255, 74, 74);
+}
+.s5cbox h5{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(255, 74, 74);
+}
+.s5cbox p{
+    padding-bottom: 20px;
+    font-style: italic;
+    color: rgb(255, 74, 74);
+}
+.ornow{
+    width: 190px;
+    border: none;
+    background-color: rgb(255, 74, 74);
+    color: whitesmoke;
+    border-radius: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.ornow:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.section-six{
+    background-image: url('img/3.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.section6content{
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+}
+.read{
+    margin-top: 29px;
+    width: 190px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.read:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+
+.section-seven{
+    background-image: url('img/1.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+ .s7heading{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+    color: rgb(255, 74, 74);
+}
+ .s7heading p{
+   width: 30%;
+   margin: 0px auto;
+    color: rgb(255, 74, 74);
+}
+.section7content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.section7content input{
+    width: 380px;
+    height: 50px;
+    border: 1px solid rgb(255, 74, 74);
+    border-radius: 20px;
+    padding: 18px;
+}
+.subtn
+{
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 74, 74);
+}
+.subtn:hover
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.ftarea{
+    background-color: rgb(30, 32, 34);
+    color: white;
+}
+.footer-content{
+    width: 90%;
+    margin: 0px auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fbox{
+    width: 17%;
+    height: 250px;
+}
+.fbox h5{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.fbox1 h5{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.fbox1{
+    width: 25%;
+    height: 250px;
+}
+.fbox li {
+   padding: 10px 0px;
+}
+.fbox li a{
+   /* padding: 19px 0px; */
+   color: antiquewhite;
+}
+.copy{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
